@@ -11,13 +11,18 @@ function initMap() {
     }
   };
   
-  var myMap = new google.maps.Map(aa, options);
+ 
   
  
   
   
 }
-//google.maps.event.addDomListener(window, 'load', init);
+
+/*
+google.maps.event.addDomListener(window, 'load', init);
+ var myMap = new google.maps.Map(aa, options);
   
 
-///////.   AIzaSyAVGF1Vh1sfAwFrnm3MHu-kfgoycqt1OiA
+   AIzaSyAVGF1Vh1sfAwFrnm3MHu-kfgoycqt1OiA
+
+*/
