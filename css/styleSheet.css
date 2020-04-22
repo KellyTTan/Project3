@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans|PT+Sans+Narrow|Barlow|Quicksand&display=swap');
 
+@media screen and (max-width: 600px) {
+  	.bodyborder {
+		background-color: rgb(200, 200, 200);
+		color: white;
+		font-size: 16px;
+		text-decoration: none;
+	}
+}
+
 body {
 	margin-bottom: 50px;
 }
