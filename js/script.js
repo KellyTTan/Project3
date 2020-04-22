@@ -5,7 +5,7 @@ function initMap() {
   var options = {
     center: location,
     zoom: 10,
-    mapTypeTd: google.maps.MapTypeId.SATELLITE,
+    mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
     }
@@ -17,7 +17,7 @@ function initMap() {
   
   
 }
-google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'load', init);
   
 
 ///////.   AIzaSyAVGF1Vh1sfAwFrnm3MHu-kfgoycqt1OiA
