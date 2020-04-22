@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans|PT+Sans+Narrow|Barlow|Quicksand&display=swap');
+
+body {
+	margin-bottom: 50px;
+}
+
+section {
+	width: 60%;
+	margin: 40px auto;
+	padding: 50px;
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Barlow', sans-serif;
+	color: rgb(70, 140, 200);
+	font-size: 32px;
+}
+
+h2 {
+	font-family: 'Barlow', sans-serif;
+	color: rgb(70, 140, 200);
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-top: 35px;
+}
+
+p {
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 1.85;
+}
+
+section > ul {
+	font-family: 'Nanum Gothic', sans-serif;
+	line-height: 1.85em;
+	text-align: left;
+	width: 85%;
+}
+
+.menu {
+	width: 96%;
+	text-align: center;
+	margin: 1px auto;
+	text-decoration: none;
+	display: inline-block;
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+	margin: 1px auto;
+	text-align: center;
+}
+
+
+.menu a {
+	font-weight: normal;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	margin: 10px auto;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	font-size: 22px;
+	background-color: rgb(120, 190, 250);
+	padding: 12px 50px;
+}
+
+.menu a:hover {
+	background-color: rgb(70, 140, 200);
+	border-radius: 15px;
+}
+
+.bodyborder {
+	background-color: rgb(210, 210, 210);
+
+}
+.bodyborder2 {
+	background-color: rgb(190, 130, 140);
+}
+
+.h2color1 {
+	color: rgb(100, 170, 130);
+	font-size: 20px;
+}
+
+.h2color2 {
+	color: rgb(170, 100, 150); 
+	font-size: 20px;
+}
+.h2color3 {
+	color: rgb(180, 100, 120);
+	font-size: 20px;
+}
+
+.foodpics {
+	display: inline-block;
+	margin: 10px;
+}
+
+.tropical {
+	background-color: black;
+	background-image: url('media/waves.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-blend-mode: lighten;
+}
