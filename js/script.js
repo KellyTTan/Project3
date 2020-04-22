@@ -1,9 +1,9 @@
 
 function initMap() {
   var aa = document.getElementById('map');
-  var location = new google.maps.LatLng(21.283952, -157.709427);
-  var options = {
-    center: location,
+  var mapLocation = new google.maps.LatLng(21.283952, -157.709427);
+  var mapOptions = {
+    center: mapLocation,
     zoom: 10,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
@@ -11,15 +11,17 @@ function initMap() {
     }
   };
   
- 
+  var myMap = new google.maps.Map(aa, mapOptions);
   
  
-  
-  
 }
+google.maps.event.addDomListener(window, 'load', initMap);
+
+
+
+
 
 /*
-google.maps.event.addDomListener(window, 'load', init);
  var myMap = new google.maps.Map(aa, options);
   
 
