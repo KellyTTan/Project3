@@ -4,7 +4,7 @@ function initMap() {
   var mapLocation = new google.maps.LatLng(21.427181, -157.999780);
   var mapOptions = {
     center: mapLocation,
-    zoom: 13,
+    zoom: 10,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
