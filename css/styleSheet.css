@@ -116,7 +116,8 @@ section > ul {
 	background-blend-mode: lighten;
 }
 
-#map {
-	height: 75%;
-	width: 80%;
+
+.myMap {
+	height: 500px;
+	width: 500px;
 }
