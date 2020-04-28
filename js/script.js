@@ -13,7 +13,7 @@ function initMap() {
 
   var myMap = new google.maps.Map(aa, mapOptions);
   
-  var myLatLng1 = {lat: 21.327353, lng: -158.088216};
+  var myLatLng1 = {lat: 21.283939, lng: -157.709506};
   var myLatLng2 = {lat: 21.318911, lng: -157.871114};
   var myLatLng3 = {lat: 21.327323, lng: -158.088173};
   var myLatLng4 = {lat: 21.427181, lng: -157.999780};
