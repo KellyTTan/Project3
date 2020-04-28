@@ -1,10 +1,10 @@
 
 function initMap() {
   var aa = document.getElementById('map');
-  var mapLocation = new google.maps.LatLng(21.283952, -157.709427);
+  var mapLocation = new google.maps.LatLng(21.427181, -157.999780);
   var mapOptions = {
     center: mapLocation,
-    zoom: 10,
+    zoom: 8,
     mapTypeId: google.maps.MapTypeId.SATELLITE,
     mapTypeControlOptions: {
       position: google.maps.ControlPosition.BOTTOM_CENTER
