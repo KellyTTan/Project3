@@ -20,22 +20,22 @@ function initMap() {
   
   var marker1 = new google.maps.Marker({
     position: myLatLng1,
-    map: map,
+    map: myMap,
     title: 'Costco closest to me'
   });
   var marker2 = new google.maps.Marker({
     position: myLatLng2,
-    map: map,
+    map: myMap,
     title: 'Costco second closest to me'
   });
   var marker3 = new google.maps.Marker({
     position: myLatLng3,
-    map: map,
+    map: myMap,
     title: 'Costco furtest from me'
   });
   var marker4 = new google.maps.Marker({
     position: myLatLng4,
-    map: map,
+    map: myMap,
     title: 'Costco third furtest from me'
   });
  
