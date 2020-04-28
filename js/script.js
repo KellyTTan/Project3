@@ -27,13 +27,13 @@ function initMap() {
     content: contentString1
   });
    var infowindow2 = new google.maps.InfoWindow({ 
-    content: contentString1
+    content: contentString2
   });
    var infowindow3 = new google.maps.InfoWindow({ 
-    content: contentString1
+    content: contentString3
   });
    var infowindow4 = new google.maps.InfoWindow({ 
-    content: contentString1
+    content: contentString4
   });
   
   var marker1 = new google.maps.Marker({
